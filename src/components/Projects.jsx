@@ -18,13 +18,13 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-20 display flex flex-col items-center"
+            className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-20"
         >
             <h2 className="text-4xl font-bold text-center mb-14">
                 My <span className="text-green-400">Projects</span>
             </h2>
 
-            <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+            <div className="flex  md:grid-cols-3 gap-10 max-w-6xl mx-auto">
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
