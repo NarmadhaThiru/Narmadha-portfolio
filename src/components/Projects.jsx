@@ -24,7 +24,7 @@ export default function Projects() {
                 My <span className="text-green-400">Projects</span>
             </h2>
 
-            <div className="flex  md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+            <div className="w-full grid md:grid-cols-3 gap-10">
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}

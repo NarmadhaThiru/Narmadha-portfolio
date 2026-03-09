@@ -23,7 +23,7 @@ export default function Skills() {
                 My <span className="text-green-400">Skills</span>
             </h2>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-8">
                 {skills.map((skill, index) => (
                     <motion.div
                         key={index}

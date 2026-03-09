@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 export default function App() {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <Hero />
       <Skills />
